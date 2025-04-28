@@ -1,0 +1,34 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Shivan",
+      "username": "shivan",
+      "email": "shivan@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "username": "john",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Kiwi",
+      "username": "kiwi",
+      "email": "kiwi@gmail.com"
+    },
+    {
+      "name": "Poonam",
+      "username": "Poonam",
+      "email": "poonam@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Poonam",
+      "username": "Poonam",
+      "email": "poonam@gmail.com",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+/* Apply styles to the entire container */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form */
+  .formdetail {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Style the heading */
+  .user {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style form labels */
+  .form-label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style input fields */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Add focus effect to inputs */
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Style buttons */
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Add button colors */
+  .btn:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Add hover effect */
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* Center buttons */
+  .text-center {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
